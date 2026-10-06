@@ -8,6 +8,7 @@ The plugin manager accepts an npm package name, a GitHub repository address, or 
 
 - **GitHub repository:** `https://github.com/hapnoid/morpheusx-deepseek-plugin` (or `github:hapnoid/morpheusx-deepseek-plugin`). The repository must be public for GitHub installation.
 - **Local directory:** the full path to the extracted or cloned folder that contains `package.json`, for example `C:\Users\you\Downloads\MorpheusX-DeepSeek-Plugin`.
+  Before entering a local folder, open a terminal in it and run `pnpm install --prod --ignore-scripts --config.auto-install-peers=false`. Local links keep dependencies in the plugin folder.
 - **npm package name:** `dsh-morpheusx-research` after it has been published to npm. This repository does not currently publish an npm package, so entering only the package name will show `No such plugin was found` until it is published.
 
 The **Custom address** field is for an npm-compatible registry URL, not a GitHub repository URL.
