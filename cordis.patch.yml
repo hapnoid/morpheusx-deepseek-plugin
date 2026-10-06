@@ -1,0 +1,14 @@
+- insert:
+    - id: morpheusx-research
+      name: dsh-morpheusx-research
+      config:
+        cdpEndpoint: ""
+        candidatePorts: [9222, 9223, 9224, 9225, 9226, 9227, 9228, 9229, 9230]
+        outputDirectory: "morpheusx-results"
+        maxPages: 3
+        resultsPerPage: 10
+        maxConcurrency: 6
+        maxSourceCharacters: 30000
+        maxReturnedCharacters: 50000
+        blockedDomains: ["instagram.com", "facebook.com"]
+        pageLoadTimeoutMs: 35000
