@@ -12,7 +12,7 @@ This bundle does not include, install, or launch a browser. It uses `playwright-
 
 ## Install
 
-Extract the bundle, open a terminal in the extracted `MorpheusX-DeepSeek-Plugin` directory, then run:
+Open a terminal in the extracted bundle or cloned repository directory (the folder containing `package.json`), then run:
 
 ```sh
 dsh plugin --profile default add .
